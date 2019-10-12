@@ -1,1 +1,198 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.google.com/?query=op&selection.family=Open+Sans:300,400,600,700,800');
+
+@import url("//netdna.bootstrapcdn.com/bootstrap/3.0.0/css/bootstrap-glyphicons.css");
+
+@import url("https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css");
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+}
+
+
+
+
+
+
+h4{
+    font-family: 'Open Sans', sans-serif;
+    line-height: 1.5;
+    font-weight:   300;
+}
+.navbar-brand{
+    
+    position:relative;
+    z-index: 11;
+    margin-bottom: -50px;
+}
+
+.navbar-brand{width: 114px;height: 120px;}
+.navbar{ background:#f89939;}
+.nav-link , .navbar-brand{ color: #f4f4f4; cursor: pointer;}
+.nav-link{ margin-right: 1em !important;}
+.nav-link:active{ background: #f4f4f4; color: #f89939; }
+.nav-link:hover{ background: #f4f4f4; color: #f89939; }
+
+
+.navbar-collapse{ justify-content: flex-end;}
+.navbar-toggler{  background:#fff !important;}
+
+
+.navbar-collapse{
+    justify-content: flex-end;
+   }
+
+
+.bg-overlay {
+    background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/banner.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    color: #fff;
+    height: 450px; 
+    padding-top: 150px;
+    
+}
+.bg-overlay h1{
+    text-transform: uppercase; 
+}
+
+.footer{
+    padding-top: 60px;
+    padding-bottom: 60px;
+    background-color: black;
+    
+    color: #fff;
+    }
+    
+    .footer img{
+        height: 100px;
+        width: 100px;
+        padding-bottom: 10px;
+    }
+    
+    .footer h1{
+    
+    text-transform: uppercase;
+    font-size: 30px;
+    }
+   
+    .about{
+        margin: 4em 0;
+        padding: 1em;
+        position: relative;
+       }
+       .parallax {
+        background: linear-gradient(rgba(0,0,0,.7), rgba(0,0,0,.7)), url('/assets/parallax.jpg');
+        background-repeat: no-repeat;
+        background-size: cover;
+        background-position: center center;
+        color: #fff;
+        padding-top: 150px;
+        padding-bottom: 150px;
+     background-attachment: fixed;
+        
+    }
+    
+    .parallax h2{padding-bottom: 10px}
+    
+    .parallax .item{
+        position: relative;
+       }
+    .parallax .des{
+        background: #F97300;
+        color: #fff;
+        text-align: center;
+        
+        transition:.3s ease-in-out;
+       }
+    
+    .parallax .item:hover .des{
+        height: 100%;
+        background:#f973007d;
+        position: absolute;
+        width: 89%;
+        padding: 5em;
+        top: 0;
+        border-bottom-left-radius: 0;
+       }
+       
+       .contact-form{
+        margin: 6em 0;
+        position: relative;  
+       }
+       .contact-form h1{
+        padding:2em 1px;
+        color: #F97300; 
+       }
+       .contact-form .right{
+        max-width: 600px;
+       }
+       .contact-form .right .btn-secondary{
+        background:  #F97300;
+        color: #fff;
+        border:0;
+       }
+       .contact-form .right .form-control::placeholder{
+        color: #888;
+        font-size: 16px;
+       }
+
+      
+  .slide {
+    animation-name: slide;
+    -webkit-animation-name: slide;
+    animation-duration: 5s;
+    -webkit-animation-duration: 1s;
+    visibility: visible;
+  }
+
+  @keyframes slide {
+    0% {
+      opacity: 0;
+      transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      transform: translateY(0%);
+    }
+  }
+  @-webkit-keyframes slide {
+    0% {
+      opacity: 0;
+      -webkit-transform: translateY(70%);
+    } 
+    100% {
+      opacity: 1;
+      -webkit-transform: translateY(0%);
+    }
+  }
+      
+
+  .fa {
+    padding: 10px;
+    font-size: 15px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+    margin: 5px 2px;
+  }
+  
+  .fa:hover {
+      opacity: 0.9;
+  }
+  
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  
+  .fa-google {
+    background: #dd4b39;
+    color: white;
+  }
