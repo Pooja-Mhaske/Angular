@@ -16,7 +16,7 @@ import { Component, OnInit } from '@angular/core';
                 
                </div>
                <div class="col-lg-3 col-md-3 col-sm-12 item">
-                <img src="../../assets/2.jpg" class="img-fluid" alt="team">
+                <img src="../../assets/1.jpg" class="img-fluid" alt="team">
                 <div class="des">
                   Chilika Lake
                  </div>
